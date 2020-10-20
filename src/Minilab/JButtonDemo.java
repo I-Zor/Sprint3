@@ -2,13 +2,6 @@ package Minilab;
 
 import javax.swing.*;
 
-/**
- * Created by Ivona Zoricic
- * Date: 2020-10-19
- * Time: 09:05
- * Project: Sprint3
- * Copywrite: MIT
- */
 public class JButtonDemo extends JFrame {
 
     ImageIcon bild = new ImageIcon("butterfly");

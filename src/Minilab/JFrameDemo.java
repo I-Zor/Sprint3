@@ -2,13 +2,6 @@ package Minilab;
 
 import javax.swing.*;
 
-/**
- * Created by Ivona Zoricic
- * Date: 2020-10-19
- * Time: 08:30
- * Project: Sprint3
- * Copywrite: MIT
- */
 public class JFrameDemo extends JFrame {
 
     JFrameDemo(){

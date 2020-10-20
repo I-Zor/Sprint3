@@ -3,13 +3,6 @@ package Minilab;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by Ivona Zoricic
- * Date: 2020-10-19
- * Time: 08:52
- * Project: Sprint3
- * Copywrite: MIT
- */
 public class JLabelDemo extends JFrame {
 
     JPanel panel = new JPanel();
