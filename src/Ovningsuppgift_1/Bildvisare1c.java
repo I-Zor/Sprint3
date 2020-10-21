@@ -14,7 +14,7 @@ public class Bildvisare1c extends JFrame implements ActionListener {
     JPanel p;
     JButton b;
     JLabel l;
-    String folderOfImages = "src/Bilder";
+    String folderOfImages = "C:/Users/Ivona/Bilder/Bilder"; //Vad är för fel i den här path??
     Path imagePath = Paths.get(folderOfImages);
     int imageIndex = 0;
     int imageCount= 0;
@@ -24,7 +24,7 @@ public class Bildvisare1c extends JFrame implements ActionListener {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(imageDir)) {
             for (Path file: stream) {
                 imageFileNames.add(file.toString());
-                System.out.println(file.getFileName().toString());
+                //System.out.println(file.getFileName().toString());
             }
         } catch (IOException | DirectoryIteratorException x) {
             x.printStackTrace();

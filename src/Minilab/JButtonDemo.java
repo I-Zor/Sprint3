@@ -4,16 +4,15 @@ import javax.swing.*;
 
 public class JButtonDemo extends JFrame {
 
-    ImageIcon bild = new ImageIcon("butterfly");
-
     JButton button = new JButton("Tryck");
-    JLabel label = new JLabel("Butterfly");
+    JLabel label = new JLabel(new ImageIcon("src/Bilder/butterfly.jpg"));
+    JPanel panel = new JPanel();
 
     JButtonDemo(){
-        JPanel panel = new JPanel();
-        this.add(panel);
+        add(panel);
         panel.add(button);
         panel.add(label);
+        this.add(panel);
         this.pack();
         this.setLocation(500, 500);
         this.setVisible(true);
